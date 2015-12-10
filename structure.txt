@@ -1,0 +1,8 @@
+nameWidget: htmlwidgets wrapper that takes in data in R and creates the figure
+nameVis: shiny wrapper to create sidebar form and call nameWidget
+nameVis.js: javascript d3 code with functions to init, render (update goes in render), and resize
+	- using Shiny.addCustomMessageHandler to get the data, and update goes in there.
+
+need to figure out how to 
+	- propery render sidebar with renderUI
+
