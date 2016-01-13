@@ -3,6 +3,7 @@ Title: Interactive visualizations of health data
 Version: 0.99.00
 Authors@R: person("Prasad", "Patil", email ="prpatil42@gmail.com", role = c("aut", "cre"))
 Description: This package uses Shiny and htmlWidgets to render interactive d3 graphics in R. The specific interest is to visualize different forms of data commonly seen in health application, e.g. survival data, heatmap data, sensitivity/specificity.
-Depends: R (>= 3.2.2), htmlwidgets, shiny, rjson
+Depends: R (>= 3.2.2)
+Imports: htmlwidgets, shiny, rjson
 License: GPL-2
 LazyData: true
